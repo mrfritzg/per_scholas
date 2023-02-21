@@ -24,8 +24,8 @@ const Student = ({ student }) => {
     // );
 
     return (
-        <div key={student.id}>
-            <h2>Name: {student.name}</h2>
+        <div>
+            <h2 key={student.id}>Name: {student.name}</h2>
             <p>Bio: {student.bio}</p>
             <div>
                 <h3>Scores</h3>
